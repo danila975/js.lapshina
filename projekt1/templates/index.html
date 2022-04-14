@@ -1,11 +1,6 @@
 {% extends 'base.html' %}
 
 
-{% block menu %}
-    {{ super() }}
-{% endblock %}
-
-
 {% block content %}
     <form action="" method="post">
         <label>ваше фио</label><br>
@@ -13,6 +8,25 @@
         <input type="text" name="message">
         </lable><br>
     <label>какой тренинг понравился вам больше всего?</label><br>
+    <select>
+        <option>Мастер-класс по профориентации</option>
+        <option>Эмоциональный интеллект</option>
+        <option>Мотивация и предназначение</option>
+        <option>Написание резюме</option>
+        <option>Cоздание делового имиджа</option>
+        <option>Теория прохождение интервью</option>
+        <option>Практикум по прохождение интервью с представителями HR компаний СБВИ</option>
+        <option>Деловой Этикет</option>
+        <option>Ментальный Карты и инфодизайн</option>
+        <option>Деловое письмо</option>
+        <option>Тайм-менеджмент</option>
+        <option>Навыки самопрезентации</option>
+        <option>Управление стрессом</option>
+        <option>Юридические аспекты трудоустройства людей с инвалидностью</option>
+        <option>Инструменты недизайнера для создания презентаций</option>
+        <option>Основы Excel</option>
+    </select><br>
+    <label>какой тренинг, по вашему мнению, был самым полездным для вас?</label><br>
     <select>
         <option>Мастер-класс по профориентации</option>
         <option>Эмоциональный интеллект</option>
